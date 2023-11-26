@@ -1,0 +1,23 @@
+body {
+    background-image: url(fondoDeMonedas.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.conversor-de-monedas {
+    justify-content: center;
+    display: block;
+}
+
+.moneda-de-origen {
+    display: flex;
+    border-radius: 5px;
+}
+
+.moneda-de-destino {
+    display: flex;
+    border-radius: 5px;
+}

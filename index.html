@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor </title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="conversoria1.js"></script>
+</head>
+
+<body>
+    <div class="exchange-de-monedas">
+
+        <div class="conversor-de-monedas">
+            <h1>Conversor de Monedas</h1>
+            <div class="moneda-de-origen">
+                <div class="input-moneda-de-origen">
+                    <input type="number" class="form-input" id="number" placeholder="0,00">
+                </div>
+                <div class="select-moneda-de-origen">
+                    <div class="select"></div>
+                    <select name="moneda" class="moneda" onchange="updatevalue()">
+                        <option value="0">selecciona una moneda de origen...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="moneda-de-destino">
+                <div class="input-moneda-de-destino">
+                    <input type="text" class="form-input" id="output" placeholder="0,00" disabled>
+                </div>
+                <div class="select-moneda-de-destino">
+                    <div class="select"></div>
+                    <select name="moneda" class="moneda" onchange="updatevalue()">
+                        <option value="0">selecciona una moneda de destino....</option>
+                    </select>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
